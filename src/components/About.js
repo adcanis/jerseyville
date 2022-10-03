@@ -36,7 +36,7 @@ const About = () => {
     >
       <Divider title="about" />
       <p ref={ref} id="headline" className={cn({ "is-reveal": reveal })}>
-        Welcome to 142 Jerseyville Road, where classic country and effortless
+        Welcome to 145 Jerseyville Road, where classic country and effortless
         elegance cross paths. The twenty-three-acre estate offers plenty of room
         for you and your family to grow. The bright kitchen and dining room are
         perfect for entertaining, along with the grand family room set around
