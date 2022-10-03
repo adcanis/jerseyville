@@ -1,0 +1,25 @@
+.about-section {
+    margin-top: 10vh;
+    @media (max-width: $layout-breakpoint-xsmall) {
+      width: 100vw !important;
+    }
+    p {
+      font-size: 70px;
+      line-height: 1.12;
+      opacity: 0;
+      @media (max-width: $layout-breakpoint-medium) {
+        font-size: 50px;
+      }
+      @media (max-width: $layout-breakpoint-xsmall) {
+        font-size: 22.5px;
+        width: 95%;
+      }
+      > div {
+        opacity: 0;
+        transform: translateY(0px);
+      }
+      &.is-reveal {
+        opacity: 1;
+      }
+    }
+  }
