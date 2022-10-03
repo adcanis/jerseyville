@@ -12,7 +12,14 @@ function App() {
   const ref = useRef(null);
   const id = useRef(null);
   const [isLoading, setIsLoading] = useState(true);
+  const [isMobile, setIsMobile] = useState(false);
   const [timer, setTimer] = useState(3);
+
+  useEffect(() => {
+    if (window.innerWidth <= 480) {
+      setIsMobile(true);
+    } else setIsMobile(false);
+  }, []);
 
   useLocoScroll(!isLoading);
 
@@ -48,7 +55,7 @@ function App() {
 
   return (
     <>
-      <Cursor />
+      {!isMobile && <Cursor />}
       <div
         className="main-container"
         id="main-container"
