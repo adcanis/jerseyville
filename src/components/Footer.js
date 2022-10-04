@@ -41,15 +41,22 @@ export default function Footer() {
   return (
     <section className="footer" data-scroll-section>
       <SectionHeader title="" />
-
-      <a
+      <p
         className={cn("location", { "is-reveal": reveal })}
         id="location-text"
         ref={ref}
-        href="tel:15197618868"
       >
-        Call now
-      </a>
+        <span>Brought to you by:</span>
+        <span>Seller's Choice Stockdale Realty Ltd</span>
+        <span>Bill "dcanis" Dikianidis</span>
+        <span>Sales Representative</span>
+        <a href="mailto:bill.dcanis@gmail.com" alt="email">
+          Book now
+        </a>
+        <a href="tel:5197618868" alt="phone">
+          Request more info
+        </a>
+      </p>
     </section>
   );
 }

@@ -67,6 +67,12 @@ function App() {
         <About />
         <Gallery />
         <Footer />
+        <div className="legal">
+          <p>
+            Brought to you by:
+            <span>Seller's Choice Stockdale Realty Ltd</span>
+          </p>
+        </div>
       </div>
     </>
   );
