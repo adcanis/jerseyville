@@ -13,6 +13,9 @@
       opacity: 0;
       transition: 650ms;
       line-height: 1.5;
+      @media (max-width: $layout-breakpoint-xsmall) {
+        font-size: 18px;
+      }
       &.is-reveal {
         opacity: 1;
       }
