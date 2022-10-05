@@ -47,7 +47,7 @@ export default function Footer() {
         ref={ref}
       >
         <span>Brought to you by:</span>
-        <span>Seller's Choice Stockdale Realty Ltd</span>
+        <span>Seller's Choice Stockdale Realty Ltd Brokerage</span>
         <span>Bill "dcanis" Dikianidis</span>
         <span>Sales Representative</span>
         <a href="mailto:bill.dcanis@gmail.com" alt="email">
